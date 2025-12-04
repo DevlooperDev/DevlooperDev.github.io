@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 500px;
+}
+
+.heading {
+    font-size: 50px;
+    color: darkslategray;
+}
+
+.content {
+    background-color: #57a0dc;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+details {
+    position: static;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
