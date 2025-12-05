@@ -16,43 +16,6 @@
     border-radius: 10px;
 }
 
-details {
-    font-size: 20px;
-    padding: 15px;
-    background-color: #444054;
-    color: #f1edee;
-    border: 5px solid #f7f7f7;
-    border-radius: 10px;
-}
-
-summary {
-    list-style-position: outside;
-    margin-left: 30px;
-    padding: 10px 10px 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    list-style-type: "\27A5";
-}
-summary::marker {
-    color: #f1edee;
-    font-size: 1.2em;
-}
-
-details[open] > ol {
-    animation: fadeIn 0.3s ease-in-out;
-}
-
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        /* transform: translateY(-10px); */
-    }
-    to {
-        opacity: 1;
-        /* transform: translateY(0); */
-    }
-}
 
 .heading2 {
     display: flex;
@@ -243,3 +206,4 @@ li a{
     display: flex;
     gap: 20px;
 }
+
