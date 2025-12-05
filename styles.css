@@ -111,6 +111,7 @@ li a{
     padding-top: 0;
     text-align: center;
     padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 .science p{
@@ -133,6 +134,7 @@ li a{
     padding-top: 0;
     text-align: center;
     padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .social science p{
@@ -155,6 +157,7 @@ li a{
     padding-top: 0;
     text-align: center;
     padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .maths p{
@@ -171,6 +174,7 @@ li a{
     color: #F1EDEE;
     border-radius: 10px;
     /*margin-left: 25%;*/
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .gujarati h2 {
@@ -199,6 +203,7 @@ li a{
     padding-top: 0;
     text-align: center;
     padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .english p{
@@ -221,6 +226,7 @@ li a{
     padding-top: 0;
     text-align: center;
     padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .sanskrit p{
