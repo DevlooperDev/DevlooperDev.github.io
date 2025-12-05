@@ -56,7 +56,190 @@ details[open] > ol {
 
 .heading2 {
     display: flex;
-    width: 75%;
+    width: 50vw;
     align-content: center;
     justify-content: center;
+    /*border: 10px solid grey;*/
+    transform: translate(25vw, -50%);
+    color: #2F243A;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #6C91BF;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+li a{
+    color: #F1EDEE;
+    font-size: 30px;
+    font-weight: bold;
+    /*margin-right: 40px;*/
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.active a{
+    border-bottom: 3px solid white;
+}
+
+.navdiv ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.science {
+    flex: 1;  
+    background-color: #6C91BF;
+    width: 150px;
+    height: 175px;
+    color: #F1EDEE;
+    border-radius: 10px;
+    /*margin-left: 25%;*/
+}
+
+.science h2 {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.science p{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.social science {
+    flex: 1;  
+    background-color: #6C91BF;
+    width: 150px;
+    height: 175px;
+    color: #F1EDEE;
+    border-radius: 10px;
+    /*margin-left: 25%;*/
+}
+
+.social science h2 {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.social science p{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.maths {
+    flex: 1; 
+    background-color: #6C91BF;
+    width: 150px;
+    height: 175px;
+    color: #F1EDEE;
+    border-radius: 10px;
+    /*margin-left: 25%;*/
+}
+
+.maths h2 {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.maths p{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.gujarati {
+    flex: 1; 
+    background-color: #6C91BF;
+    width: 150px;
+    height: 175px;
+    color: #F1EDEE;
+    border-radius: 10px;
+    /*margin-left: 25%;*/
+}
+
+.gujarati h2 {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.gujarati p{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.english {
+    flex: 1; 
+    background-color: #6C91BF;
+    width: 150px;
+    height: 175px;
+    color: #F1EDEE;
+    border-radius: 10px;
+    /*margin-left: 25%;*/
+}
+
+.english h2 {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.english p{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.sanskrit {
+    flex: 1; 
+    background-color: #6C91BF;
+    width: 150px;
+    height: 175px;
+    color: #F1EDEE;
+    border-radius: 10px;
+    /*margin-left: 25%;*/
+}
+
+.sanskrit h2 {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.sanskrit p{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
 }
